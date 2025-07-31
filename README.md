@@ -10,4 +10,4 @@
 
 # 📊 Tech Stack:
 # -> Python (pandas, matplotlib, seaborn, scikit-learn)
-# -> VS Code
+# -> Juypter Notebook
