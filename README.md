@@ -1,13 +1,45 @@
-🌡️ Temperature Prediction using Humidity | Linear Regression
-A simple machine learning project to predict temperature based on humidity using Linear Regression. The dataset includes sensor readings such as humidity, pressure, and # geographic location. This project demonstrates basic EDA, preprocessing, model training, and evaluation using Python and scikit-learn.
+# 🌡️ Temperature Prediction Using Humidity
 
- 🔧 Features:
-#-> Data cleaning and preprocessing
-# -> Exploratory Data Analysis (EDA)
-# -> Linear Regression model training
-# -> Model evaluation (MSE, R²)
-# -> Visualization of prediction results
+# Description
+This project focuses on predicting temperature using humidity and other environmental sensor data through Machine Learning techniques. The workflow includes data cleaning, exploratory data analysis (EDA), feature selection, model training, and performance evaluation. A Linear Regression model was developed to analyze the relationship between humidity and temperature, providing accurate predictions and valuable insights through visualizations.
 
-# 📊 Tech Stack:
-# -> Python (pandas, matplotlib, seaborn, scikit-learn)
-# -> Juypter Notebook
+# Problem Statement
+Accurately predicting temperature based on humidity and environmental sensor readings can support weather monitoring, environmental analysis, and data-driven decision-making.
+
+# Dataset
+The dataset contains:
+* Temperature
+* Humidity
+* Pressure
+* Geographic Location Data
+* Other Environmental Sensor Readings
+ 
+# Methodology
+1. Data Collection
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Correlation Analysis
+5. Linear Regression Model Training
+6. Model Evaluation
+7. Result Visualization
+
+# Results
+Built a Linear Regression model for temperature prediction.
+Evaluated performance using Mean Squared Error (MSE) and R² Score.
+Visualized actual vs. predicted temperature values.
+Identified key relationships between environmental variables.
+
+# Tech Stack
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+# Future Improvements
++ Experiment with advanced regression algorithms.
++ Integrate real-time weather datasets.
++ Deploy as a web application using Streamlit or Flask.
++ Improve model performance through feature engineering.
