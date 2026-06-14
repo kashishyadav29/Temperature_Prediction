@@ -1,12 +1,12 @@
 # 🌡️ Temperature Prediction Using Humidity
 
-# Description
+## Description
 This project focuses on predicting temperature using humidity and other environmental sensor data through Machine Learning techniques. The workflow includes data cleaning, exploratory data analysis (EDA), feature selection, model training, and performance evaluation. A Linear Regression model was developed to analyze the relationship between humidity and temperature, providing accurate predictions and valuable insights through visualizations.
 
-# Problem Statement
+## Problem Statement
 Accurately predicting temperature based on humidity and environmental sensor readings can support weather monitoring, environmental analysis, and data-driven decision-making.
 
-# Dataset
+## Dataset
 The dataset contains:
 * Temperature
 * Humidity
@@ -14,7 +14,7 @@ The dataset contains:
 * Geographic Location Data
 * Other Environmental Sensor Readings
  
-# Methodology
+## Methodology
 1. Data Collection
 2. Data Cleaning and Preprocessing
 3. Exploratory Data Analysis (EDA)
@@ -23,13 +23,13 @@ The dataset contains:
 6. Model Evaluation
 7. Result Visualization
 
-# Results
+## Results
 Built a Linear Regression model for temperature prediction.
 Evaluated performance using Mean Squared Error (MSE) and R² Score.
 Visualized actual vs. predicted temperature values.
 Identified key relationships between environmental variables.
 
-# Tech Stack
+## Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -38,7 +38,7 @@ Identified key relationships between environmental variables.
 - Scikit-learn
 - Jupyter Notebook
 
-# Future Improvements
+## Future Improvements
 + Experiment with advanced regression algorithms.
 + Integrate real-time weather datasets.
 + Deploy as a web application using Streamlit or Flask.
